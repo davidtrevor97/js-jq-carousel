@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.dodisplay{
+  display: block;
+}
+.fa-chevron-left{
+  position: absolute;
+  top: 50%;
+  left: 20%
+}
+.fa-chevron-right{
+  position: absolute;
+  top: 50%;
+  left: 80%
+}
+.fa-chevron-left:hover ,
+.fa-chevron-right:hover{
+  cursor: pointer;
+}
